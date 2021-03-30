@@ -1,8 +1,9 @@
 import React from 'react';
 
 const ReviewItem = (props) => {
-    // console.log(props.product)
     const {name, quantity, img, key, price} = props.product;
+    document.title = "Order Review";
+    
     return (
         <div className="product">
             <div>
